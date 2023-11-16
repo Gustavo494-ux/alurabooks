@@ -1,0 +1,35 @@
+.topicos-visitados{
+    background: var(--azul-degrade);
+    padding: 2em 1.6em;
+}
+
+.topicos-visitados__titulo{
+    color: var(--branco);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 1.35em;
+}
+
+.lista-topicos{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    gap: 1em;
+}
+
+.lista-topicos__item{
+    display: flex;
+    align-items: center;
+    padding: 1em 0.8em;
+    background: var(--laranja);
+}
+
+.lista-topicos__item__link{
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
