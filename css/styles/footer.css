@@ -1,0 +1,11 @@
+
+.rodape{
+    border-top: 1px solid var(--cinza);
+}
+
+.rodape__titulo{
+    color: var(--preto);
+    margin: 1.1em 0 1.4em 1em;
+    font-size: 1em;
+    font-weight: 400;
+}
