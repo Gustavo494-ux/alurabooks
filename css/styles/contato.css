@@ -27,8 +27,39 @@
     font-size: 1em;
     font-weight: 400;
     color: var(--azul-degrade);
-    /* text-align: center; */
     background-image: url("../../imagens/Envelope.svg");
     background-repeat: no-repeat;
     background-position: 0;
+}
+
+@media screen and (min-width: 1024px){
+    .contato__container{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contato__container__descricao{
+        margin-right: 1em;
+        width: 30%;
+    }
+
+    .contato__titulo{
+        font-size: 1.7em;
+        margin: 1em 0;
+    }
+
+    .contato__texto{
+        font-size: 1em;
+    }
+
+    .contato__leads{
+        padding: 1.1em 3em;
+        width: 30%;
+    }
+
+    .contato__leads::placeholder{
+        padding: 0.68em 3em 0.63em 3em;
+        font-size: 1.3em;
+    }
 }

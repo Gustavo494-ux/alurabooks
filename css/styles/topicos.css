@@ -33,3 +33,13 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos-visitados__titulo{
+        font-size: 1.5em;
+    }
+
+    .lista-topicos__item__link{
+        font-size: 1.5em;
+    }
+}
